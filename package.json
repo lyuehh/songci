@@ -1,0 +1,27 @@
+{
+  "name": "songci",
+  "version": "0.0.0",
+  "main": "lib/songci.js",
+  "description": "read songci in your command line...",
+  "homepage": "https://github.com/lyuehh/songci",
+  "bugs": "https://github.com/lyuehh/songci/issues",
+  "author": {
+    "name": "lyuehh",
+    "email": "lyuehh@gmail.com",
+    "url": "http://lyuehh.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyuehh/songci"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0"
+  }
+}
