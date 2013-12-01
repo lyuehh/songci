@@ -3,24 +3,30 @@
 read songci in your command line...
 
 ## Getting Started
-Install the module with: `npm install songci`
+Install with: `npm install -g songci`
 
-```javascript
-var songci = require('songci');
-songci.awesome(); // "awesome"
+Usage
+=====
+
+```
+Usage: songci [options]
+
+  Options:
+
+    -h, --help               output usage information
+    -V, --version            output the version number
+    -a, --author [author]    poetry by the author
+    -t, --title [title]      the title of the poetry
+    -s, --search [search]    search the title
+    -c, --content [content]  search the content
+    --authors                list all the authors
+    --poetries               list all the poetries
 ```
 
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
-
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+
+0.0.1 init
 
 ## License
 Copyright (c) 2013 lyuehh. Licensed under the MIT license.

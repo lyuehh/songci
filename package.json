@@ -1,6 +1,6 @@
 {
   "name": "songci",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/songci.js",
   "description": "read songci in your command line...",
   "homepage": "https://github.com/lyuehh/songci",
@@ -10,9 +10,19 @@
     "email": "lyuehh@gmail.com",
     "url": "http://lyuehh.com"
   },
+  "scripts": {
+    "test": "grunt"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/lyuehh/songci"
+  },
+  "bin": {
+    "songci": "./bin/cli.js"
+  },
+  "dependencies": {
+    "underscore": "*",
+    "commander": "*"
   },
   "licenses": [
     {

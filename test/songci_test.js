@@ -28,9 +28,12 @@ exports['songci'] = {
     done();
   },
   'no args': function(test) {
-    test.expect(1);
+    test.expect(4);
     // tests here
-    test.equal(songci.awesome(), 'awesome', 'should be awesome.');
+    test.notEqual(songci.getPoetryByAuthor('辛弃疾'), 0, 'should not be 0.');
+    test.notEqual(songci.getPoetryByTitle('念奴娇（赤壁怀古）'), 0, 'should not be 0.');
+    test.notEqual(songci.getPoetryBySearchTitle('念奴娇'), 0, 'should not be 0.');
+    test.notEqual(songci.getPoetryBySearchContent('惊起一滩鸥鹭'), 0, 'should not be 0.');
     test.done();
   }
 };
