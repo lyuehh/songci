@@ -1,6 +1,6 @@
 {
   "name": "songci",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/songci.js",
   "description": "read songci in your command line...",
   "homepage": "https://github.com/lyuehh/songci",
